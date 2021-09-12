@@ -1,0 +1,14 @@
+/* @media (max-width: 967px) {
+    .dashboard{
+        padding-left: 0;
+        padding-right: 0 !important;
+    } 
+    } */
+.dashboard{
+    padding-top: 6.5rem;
+    padding-right: 19.3rem;
+}
+
+.d-sec2,.d-sec3,.d-sec4{
+    margin-top: 15px;
+}

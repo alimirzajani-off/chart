@@ -1,0 +1,20 @@
+<div className="header fixed-top d-flex align-items-center justify-content-between pl-2 mr-2">
+<div className="header-title">
+                <h3>صفحه اصلی</h3>
+            </div>
+            <div className="input-btn-group">
+                <div className="dropdown">
+                    <button className="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        علی میرزاجانی
+                    </button>
+                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <h4 className="text-right pr-1">انتخاب نقش</h4>
+                        <hr />
+                        <li><a className="dropdown-item" href="#"><i class="fas fa-user"></i>علی میرزاجانی/مسئول</a></li>
+                        <li><a className="dropdown-item" href="#"><i class="fas fa-user-check"></i>علی میرزاجانی/مسئول</a></li>
+                        <li><a className="dropdown-item" href="#"><i class="fas fa-user"></i>علی میرزاجانی/مسئول</a></li>
+                    </ul>
+                </div>
+                <button className="btn">خروج<i className="fas fa-sign-out-alt"></i></button>
+            </div>
+            </div>

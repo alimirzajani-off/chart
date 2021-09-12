@@ -1,0 +1,24 @@
+
+    const mounted = useRef()
+    useEffect(() => {
+        if (!mounted.current) {
+            funcName();
+        }
+        mounted.current = true;
+    }, [])
+
+    const [Dash1, setDash1] = useState([])
+    var headers = new Headers();
+    headers.append('Accept', 'application/json, */*');
+    headers.append('Content-Type', 'application/grpc');
+    headers.append('Authorization', 'Bearer accesstoken11_25_1');
+    async function funcName() {
+        const url = 'https://api.ghesti.cards/Merchant/dashboard'
+        const response = await fetch(url, {
+            method: 'GET',
+            headers: headers
+        });
+        var data = await response.json();
+        setDash1(data)
+    }
+console.log(Dash1);

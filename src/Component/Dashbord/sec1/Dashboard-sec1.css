@@ -1,0 +1,50 @@
+.d-sec1{
+    justify-content: space-between;
+}
+
+.d-sec1 .box{
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 9%);
+    border: .5px solid #ddd;
+}
+
+.d-sec1 .box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.d-sec1 .sb-box h4{
+    margin-bottom: 0;
+}
+
+.d-sec1 .sb-box{
+    padding:3rem 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 9%);
+    border: .5px solid #ddd;
+}
+
+.d-sec1 .box h6{
+    color: #363636;
+    padding: 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.d-sec1 .checkbox-group{
+    padding-top: 1rem;
+    text-align: initial;
+}
+
+.d-sec1 .sb-box span{
+    display: flex;
+    justify-content: space-between;
+}
+.d-sec1 .checkbox-group label{
+    padding-right: 0.2rem;
+}
